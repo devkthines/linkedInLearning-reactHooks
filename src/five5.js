@@ -1,8 +1,8 @@
-import React from 'react';
+﻿import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import {useFetch} from './five5useFetch.js'
-
+//building a fetch component
 //fetching data with customhook
 function App({login}){
 const {loading,data,error} = useFetch(
